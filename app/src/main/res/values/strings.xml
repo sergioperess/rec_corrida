@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">reconciliacao</string>
+    <string name="pista">Pista para a realização do projeto</string>
+    <string name="t1">Tempo 1: ---</string>
+    <string name="t2">Tempo 2: ---</string>
+    <string name="t3">Tempo 3: ---</string>
+    <string name="t4">Tempo 4: ---</string>
+    <string name="t5">Tempo 5: ---</string>
+    <string name="t6">Tempo 6: ---</string>
+    <string name="t7">Tempo 7: ---</string>
+    <string name="t8">Tempo 8: ---</string>
+    <string name="t9">Tempo 9: ---</string>
+    <string name="t10">Tempo 10: ---</string>
+</resources>
