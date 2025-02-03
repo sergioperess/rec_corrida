@@ -264,6 +264,7 @@ public class Car implements Runnable {
             tempos.add(elapsedTimeSeconds);
         }*/
 
+        //Sensores para a rota 2
         if(x == sensorXr2[0]){
             tempos.add(elapsedTimeSeconds);
         } else if (x == sensorXr2[1]) {

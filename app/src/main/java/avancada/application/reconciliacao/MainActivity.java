@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
 
         for (Car car : carList) {
 
-
             Paint paint = new Paint();
             paint.setColor(TRACK_COLOR);
             canvas.drawCircle(car.getX(), car.getY(), 10, paint); // Limpa a posição anterior
@@ -124,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                     tempos[i] = valores.get(i);
                 }
 
-                System.out.println(Arrays.toString(tempos));
+                //System.out.println(Arrays.toString(tempos));
 
                 TextView time1 = findViewById(R.id.time1);
                 TextView time2 = findViewById(R.id.time2);
@@ -149,7 +148,6 @@ public class MainActivity extends AppCompatActivity {
                 time10.setText(String.format("Tempo10: %.3f s", tempos[9]));
 
             }
-
 
             paint.setColor(car.getColor());
             canvas.drawCircle(car.getX(), car.getY(), 10, paint); // Desenha o carro na nova posição
